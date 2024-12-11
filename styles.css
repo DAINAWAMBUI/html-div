@@ -1,0 +1,39 @@
+.container{
+    background-color: rgb(12, 166, 238);
+    color: black;
+    width: 100%;
+    margin: auto;
+
+}
+
+.city{
+    background-color: aqua;
+    color: black;
+    width: 300px;
+    margin: auto;
+
+}
+
+
+div.mycontainer {
+    width:50%;
+    overflow:auto;
+  }
+
+  div.mycontainer div {
+    width:30%;  
+    float:left;
+  }
+  h1{
+    color: rgb(240, 19, 111);
+    font-size: larger;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .grid-container {
+    width: 50;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
